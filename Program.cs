@@ -29,15 +29,15 @@ namespace Alif_Homework_10._08._2021
             else if (x > 1000)
             {
                 var v = x / 100 * 5;
-                var y = x - v;
-                System.Console.WriteLine($"Ваша скидка 5% составляет: {v} самон");
+                var y = x - e;
+                System.Console.WriteLine($"Ваша скидка 5% составляет: {e} самон");
                 System.Console.WriteLine($"Сумма к оплате: {y} самон");
             }
             else if (x > 500)
             {
                 var v = x / 100 * 3;
-                var y = x - v;
-                System.Console.WriteLine($"Ваша скидка 3% составляет: {v} самон");
+                var y = x - e;
+                System.Console.WriteLine($"Ваша скидка 3% составляет: {e} самон");
                 System.Console.WriteLine($"Сумма к оплате: {y} самон");
             }
             
